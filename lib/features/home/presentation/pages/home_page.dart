@@ -35,11 +35,11 @@ class HomePage extends StatelessWidget {
                 children: [
                   Text(
                     'Additional Information',
-                    style:AppTextStyles.headlineSmall.copyWith(
+                    style:AppTextStyles.labelLarge.copyWith(
                       color: Colors.white
                     ),
                   ),
-                  SizedBox(height: 10), // Add some spacing if needed
+                  SizedBox(height: 10),
                 ],
               ),
             ),
